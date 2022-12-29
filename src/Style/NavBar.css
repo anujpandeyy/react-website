@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap');
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+}
+
+
+ a{
+      text-decoration: none;
+      list-style: none;
+      color: white;
+      font-weight: bolder;
+      text-transform: capitalize;
+}
+
+
+.navbar ul{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: black;
+      padding: 10px 20px;
+}
+
+ul li a:hover{
+      color: #BB98FF;
+}
+
+/*Mobile*/
+
+@media (max-width:768px){
+      .navbar{
+            display: flex;
+            flex-direction: column;
+      }
+}
+
+
+html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+}
+
+.hero-page{
+      background-image: url('../Images/herobg.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: #BB98FF;
+      height: 100vh;
+}
+
+.one{
+      position: relative;
+      left: 100px;
+      top: 220px;
+      text-align:justify;
+      text-transform: uppercase;
+}
+
+.two{
+      position: relative;
+      left: 100px;
+      top: 220px;
+      text-transform: uppercase;
+}
+
+.three{
+      position: relative;
+      left: 100px;
+      top: 220px;
+      text-align:justify;
+      text-transform: uppercase;
+}
+
+.para{
+      position: relative;
+      left: 100px;
+      top: 220px;
+      text-align:justify;
+}
+
+.hero-btn{
+      position: relative;
+      left: 100px;
+      top: 230px;
+      height: 40px;
+      width: 150px;
+      color: white;
+      font-weight: bolder;
+      background-color: black;
+      border-radius: 5px;
+}
+
+@media (max-width:768px){
+      .hero-page{
+            width: 100%;
+
+      }
+
+      .one{
+            display: block;
+            position: relative;
+            left: 1em;
+      }
+
+      .two{
+            display: block;
+            position: relative;
+            left: 1em;
+      }
+
+      .three{
+            display: block;
+            position: relative;
+            left: 1em;
+      }
+
+      .para{
+            display: block;
+            position: relative;
+            font-size: 10px;
+            left: 3.5em;
+            font-weight: 400;
+      }
+
+      .hero-btn{
+            display: block;
+            position: relative;
+            left: 2em;
+      }
+}

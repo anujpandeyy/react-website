@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap');
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+}
+
+
+a{
+      text-decoration: none;
+      list-style: none;
+      color: white;
+      font-weight: bolder;
+      text-transform: capitalize;
+}
+
+
+.navbar ul{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: black;
+      padding: 10px 20px;
+}
+
+ul li a:hover{
+      color: #BB98FF;
+}
+
+/*Mobile*/
+
+@media (max-width:768px){
+      .navbar{
+            display: flex;
+            flex-direction: column;
+      }
+}
+
+
+html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+}
+
+.contact-bg{
+      height: 100vh;
+      background-color: #BB98FF;
+}
+
+.conatct-text{
+      position: relative;
+      top: 15em;
+      left: 15em;
+}
+
+.form{
+      position: relative;
+      top: 6em;
+      left: 60em;
+}
+
+.name{
+      position: relative;
+      right: 1em;
+      height: 3em;
+      border-radius: 5px;
+}
+
+.email{
+      position: relative;
+      left: 1em;
+      height: 3em;
+      border-radius: 5px;
+}
+
+.mesg{
+      position: relative;
+      height: 15em;
+      top: 8em;
+      left: 71em;
+      border-radius: 5px;
+}
+
+.btn{
+      position: relative;
+      left: 570px;
+      top: 170px;
+      height: 30px;
+      width: 150px;
+      color: white;
+      font-weight: bolder;
+      background-color: black;
+      border-radius: 5px;
+}
+
+@media (max-width:768px){
+      .contact-bg{
+            display: block;
+      }
+
+      .conatct-text{
+            position: relative;
+            left: 1em;
+            top: 0.8em;
+      }
+
+      .form{
+            position: relative;
+            left: 1em;
+      }
+
+      .mesg{
+            position: relative;
+            width: 28em;
+            height: 15em;
+            left: 0.2em;
+      }
+
+      .btn{
+            position: relative;
+            left: 1em;
+            top: 9em;
+      }
+}
